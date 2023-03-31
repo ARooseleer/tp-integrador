@@ -5,11 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-image: url(./img/fondo.jpg);
+    }
+    .contenedor{
+       background-color: hsla(0, 100%, 100%, 0.5);
+       border: 1px solid greenyellow;
+       border-radius: 3%;
+       margin: 0 10%;
+       padding: 5%;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="marca.png" alt="logo" width="150px" height="100">
+  <div class="contenedor">
+
+      <header>
+        <img src="./img/marca.png" alt="logo" width="150px" height="100">
         
         <nav class="navbar">
             <ul class="navlista"> 
@@ -23,67 +40,58 @@
     </header>
 
         <div>
-            <p>DONDE SE REUNEN LOS ACTIVOS DIGITALES INNOVADORES</p>
-<button onclick="">DESCARGAR APP</button>
+            <p>DONDE SE REUNEN LOS ACTIVOS DIGITALES INNOVADORES</p>  
+            <button onclick="">DESCARGAR APP</button>
         </div>
-
         <div>
-            <h2>QUIENES SOMOS?</h2>
-
-          <div class="Organizacion"> <h3>Sobre JUNGLE</h3>
-            <p>Es un espacio de aprendizaje sobre criptomonedas, el ecosistema fintech y la nueva economía digital.</p>
-          </div>
+          <h2>QUIENES SOMOS?</h2>
+            <div class="Organizacion"> <h3>Sobre JUNGLE</h3>
+              <p>Es un espacio de aprendizaje sobre criptomonedas, el ecosistema fintech y la nueva economía digital.</p>
+            </div>
 
           <div class="Personal"> <h3>Staff</h3>
-
-            <div>Cecilia Alvez - CEO</div>
-            <div>Tomás Alvarez - Economista </div>
-            <div>Luisa Soliz - Programadora</div>
-            <div>Gabriel Gabas - Diseñador Gráfico</div>
-
+            <ul>
+              <li> Cecilia Alvez - CEO</li>
+              <li>Tomás Alvarez - Economista</li>
+              <li>Luisa Soliz - Programadora</li>
+              <li>Gabriel Gabas - Diseñador Gráfico</li>
+            </ul>
           </div>
-
-    <div>
         <h2>CONTACTO</h2>
 
 
-        <form action="../form-result.php" target="_blank">
-
-            <p>
-          
-              NOMBRE Y APELLIDO <input type="text" name="nombrecompleto">
-              TELEFONO <input type="text" name="Telefono">
-              E-MAIL <input type="text" name="Email">
-              MENSAJE <input type="text" name="Mensaje">
-          
-              <input type="submit" value="ENVIAR">
-          
-            </p>
-    
+          <form>
+              <label for="nombre">NOMBRE:</label>
+              <input type="text" name="nombre" id="nombre"><br>
+              <label for="apellido">APELLIDO:</label>
+              <input type="text" name="apellido" id="apellido"><br>
+              <label for="telefono">TELEFONO:</label>
+              <input type="tel" name="telefono" id="telefono"><br>
+              <label for="gmail">GMAIL:</label>
+              <input type="email" name="gmail" id="gmail"> <br>
+              <textarea name="msj" id="msj" cols="20" rows="9" placeholder="Escriba su comentario aqui..."></textarea> <br>
+              <input type="submit" value="enviar">
           </form>
     </div>
 
     <div>
         <h2>COTIZACIÓN</h2>
     
-        <form action="../form-result.php" target="_blank">
-
-            <p>
-          
-              PESO <input type="text" name="Peso">
-              BITCOIN <input type="text" name="Bitcoin">
-          
-              <input type="submit" value="COTIZAR">
-          
-            </p>
-    
-          </form>
+        <form>
+            <label for="pesos">PESOS:</label>
+            <input type="number" name="pesos" id="pesos"><br>
+            <label for="bitcoin">BITCOINS:</label>
+            <input type="number" name="bitcoin" id="bitcoin">
+            <input type="submit" value="COTIZAR">
+        </form>
     </div>
 
     
     <footer>
-        <h3>Datos legales</h3>  <img src="marca.png" alt="logo" width="100px" height="85px">
+        <h3>Datos legales</h3> 
+        <img src="./img/marca.png" alt="logo" width="100px" height="85px">
     </footer>
-    
+  </div>
+  
 </body>
 </html>
