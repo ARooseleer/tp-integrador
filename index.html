@@ -6,47 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jungle Bitcoin</title>
     <link rel="shortcut icon" href="/ico/ico.png" type="image/x-icon">
-    
-  
-  <!--Esto es temporal despues ira en una enlase externo-->
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      background-image: url(./img/fondo.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-  
-    .contenedor {
-     background-image: url(./img/pexels-alesia-kozik-6771178.jpg);
-      background-size:cover ;
-      background-repeat: no-repeat;
-      border: 1px solid greenyellow;
-      border-radius: 3%;
-      margin: 0 10%;
-      padding: 0%;
-    }
-    .contenedor-1 {
-     background-color: hsla(0, 100%,100%,0.9);
-      border: 1px solid greenyellow;
-      border-radius: 3%;
-      margin: 0 10%;
-      padding: 0%;
-    }
-    .colum{
-      border:1px solid red;
-      background-color: whitesmoke;
-      height: 500px;
-    }
-    input{
-      width: 70%;
-    }
-    h2{
-      color: whitesmoke;
-    }
-  </style>
+    <link rel="stylesheet" href="style-crypto.css">
   <!--Boostrap ensale-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
 </head>
@@ -87,14 +47,14 @@
       </div>
     </div>
   </nav>
-  <div class="contenedor">
-    
+  <div class="contenedor">    
   <section class="container img" style="margin-top: 80px;">
-    
     <div class="row">
-    
-      <div class="col  col-sm-12 col-lg-6 ">
-      
+      <div class="col  col-sm-12 col-lg-6 text-white"> <!--Ajustar el texto informacion aserca de la pagina-->
+        <p>
+          <br>
+          AJUSTAR ESTE  TEXTO (INFORMACION  DE LA PAG , AGREGAR UN TONO TRASNPARETE PARA FACILITAR SU LECTURA OCAMBIAR LA IMAGEN.)
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae neque accusamus impedit esse repellendus sit rerum aperiam mollitia nobis molestias tempora laboriosam a quos labore nesciunt iusto, saepe non quasi?</p>
       </div>
       <div class="col-sm-12 col-lg-6 text-center "> <!--Contiene  12 col en tamanio small y 2 col en large-->
           <h2 class="py-4 text-white">Formulario de suscripción</h2>
@@ -120,51 +80,61 @@
             <button type="submit" class="btn btn-success" id="btn">Suscribirse</button>
           </form>
           </div>
-
     </div>
   </div>
   </section>
- <div class="contenedor-1">
-    
-    </ul>
-        <div>
-            <p>DONDE SE REUNEN LOS ACTIVOS DIGITALES INNOVADORES</p>  
-            <button onclick="">DESCARGAR APP</button>
+  <p class="text-center text-white">hacer una revicion de codigo viendo y entiendo las partes , luego agregar 4 iconos  , o algo multimedia para rellear la pag.</p>
+    </div>
+    <footer class="container-fluid">
+      <div class="row p-5 bg-dark text-white pb-0 mb-0">
+        <div class="col-sm-12 col-md-6 col-lg-3 p-0">
+          <img src="./img/marca.png" alt="marca" width="100px" height="85px">
         </div>
-        <div>
-          <h2>QUIENES SOMOS?</h2>
-            <div class="Organizacion"> <h3>Sobre JUNGLE</h3>
-              <p>Es un espacio de aprendizaje sobre criptomonedas, el ecosistema fintech y la nueva economía digital.</p>
-            </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+          <h5>Desarolladores</h5>
+          <address>
+            Chavez Camila<br>
+            Garcia Juan<br>
+            Perez Braian <br>
+            Rooseleer Andrea <br>
+            Ibañez Franco
+          </address>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
 
-          <div class="Personal"> <h3>Staff</h3>
-            <ul>
-              <li> Cecilia Alvez - CEO</li>
-              <li>Tomás Alvarez - Economista</li>
-              <li>Luisa Soliz - Programadora</li>
-              <li>Gabriel Gabas - Diseñador Gráfico</li>
-            </ul>
+          <h5>Contacto</h5>
+          <address>
+            gmail: bitoins@jungle.com<br>
+            tel: 0800-634590 
+           
+          </address>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#"> (agregar iconos de redes in-line)</a>
           </div>
-    </div>
+          
 
-    <div>
-        <h2>COTIZACIÓN</h2>
+          
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5>Condiciones y Privacidad</h5>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Politica de privacidad</a>
+            
+          </div>
+          <div class="mb-2">
+          <a class="text-white text-decoration-none" href="#">Termino del servicio</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Mapa del sitio</a>
+          </div>
     
-        <form>
-            <label for="pesos">PESOS:</label>
-            <input type="number" name="pesos" id="pesos"><br>
-            <label for="bitcoin">BITCOINS:</label>
-            <input type="number" name="bitcoin" id="bitcoin">
-            <input type="submit" value="COTIZAR">
-        </form>
-    </div>
-
-    
-    <footer>
-        <h3>Datos legales</h3> 
-        <img src="./img/marca.png" alt="logo" width="100px" height="85px">
+      </div>
+        <div class="col-sm-12 p-3 mt-3">
+          <p class="text-center " style="font-size: 11px;">Copyrights belong to jungle 2023</p>
+        </div>
+      
     </footer>
-</div>
+
   <!--Boostrap JS-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>

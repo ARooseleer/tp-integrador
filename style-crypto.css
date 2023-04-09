@@ -1,0 +1,29 @@
+  body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-image: url(./img/fondo.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  
+    .contenedor {
+     background-image: url(./img/pexels-alesia-kozik-6771178.jpg);
+      background-size:cover ;
+      background-repeat: no-repeat;
+      border: 1px solid greenyellow;
+      border-radius: 3%;
+      margin: 0 10%;
+      padding: 0%;
+    }
+    .colum{
+      border:1px solid red;
+      background-color: whitesmoke;
+      height: 500px;
+    }
+    input{
+      width: 70%;
+    }
+    h2{
+      color: whitesmoke;
+    }
