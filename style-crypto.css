@@ -27,4 +27,9 @@
     h2{
       color: whitesmoke;
     }
+    form.border-form {
+      border: 5px solid white;
+      padding-bottom: 7px;
+      box-shadow: 0 0 10px;
+    }
     
