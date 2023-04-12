@@ -2,21 +2,48 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      background-image: url(./img/fondo.jpg);
+      background-image: url(./img/CRYPTO.jpg);
       background-size: cover;
       background-repeat: no-repeat;
     }
-  
+nav {
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
     .contenedor {
-     background-image: url(./img/SL_0212121_40670_54\ [Convertido]-01.jpg);
+     background-color: black;
       background-size:cover ;
       background-repeat: no-repeat;
-      border: 1px solid greenyellow;
+      border: 1px solid rgb(93, 50, 212);
       border-radius: 3%;
       margin: 0 10%;
       padding: 0%;
       padding-bottom: 10%;
     }
+.parrafo{
+  background-color: black;
+  background-repeat: no-repeat;
+  border: 1px solid rgb(93, 50, 212);
+  border-radius: 3%;
+  margin: 0 10%;
+  padding: 0%;
+  padding-bottom: 10%;
+  width: 500px;
+  height: 450px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+
+.cotizacion{
+  background-color: black;
+  background-repeat: no-repeat;
+  border: 1px solid rgb(93, 50, 212);
+  border-radius: 3%;
+  margin: 0 10%;
+  padding: 0%;
+  padding-bottom: 10%;
+}
     .colum{
       border:1px solid red;
       background-color: whitesmoke;
@@ -27,6 +54,7 @@
     }
     h2{
       color: whitesmoke;
+      font-family: 'Baloo Bhaijaan 2', cursive;
       
     }
     form.border-form {
@@ -37,6 +65,12 @@
     .slogan{
       font-size: 200%;
       padding-top: 20%;
+      text-align: center;
+      font-style: rgb(93, 50, 212);
+      font-family: 'Baloo Bhaijaan 2', cursive;
     }
     
+    p {
+      text-align: justify;
+    }
     

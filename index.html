@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="style-crypto.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&display=swap" rel="stylesheet">
 
 <body>
   <nav class="navbar navbar-expand-lg bg-dark bg-gradient bg-opacity-100 fixed-top">
@@ -21,10 +24,12 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link link-light  ms-5" href="#">Home</a>
+            <a class="nav-link link-light  ms-5" href="#">
+              <img src="img/marca1.png" alt="home" style="width: 150px; height: 100px;">
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link link-light  ms-5" href="#">Quienes somos</a>
+            <a class="nav-link link-light  ms-5" href="#QuienesSomos">Quienes somos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link link-light  ms-5" href="#contacto" >Contacto</a>
@@ -50,7 +55,9 @@
       <div class="col  col-sm-12 col-lg-6 text-white"> <!--Ajustar el texto informacion aserca de la pagina-->
         <h1 class="slogan">
           <br>
-          ¡Protege tu inversión en criptomonedas con nuestra wallet y <br> ten la tranquilidad que mereces!</h1>
+          ¡Protege tu inversión en criptomonedas
+          <br>con nuestra wallet
+          <br>y ten la tranquilidad que mereces!</h1>
       </div>
       <div class="col-sm-12 col-lg-6 text-center "> <!--Contiene  12 col en tamanio small y 2 col en large-->
           <h2 class="py-4 text-white">Formulario de suscripción</h2>
@@ -78,52 +85,31 @@
           </div>
     </div>
   </div>
+
+  <br>
+  <br>
+
+
 <!-- EMPEIZA SECCION DE QUIENES SOMOS-->
-  <section class="container img" style="margin-top: 80px;"> 
+<div class="parrafo">
+<section class="container img" style="margin-top: 50px;"> 
     <div class="row">
-      <div class="col  col-sm-12 col-lg-6 text-white">
-      <h2 class="py-4 text-white ">Quienes somos</h2>
+      <div class="col text-white">
+      <h2 class="py-4 text-white " id="QuienesSomos">Quienes somos</h2>
       <p>¿Quieres entrar en el mundo de las criptomonedas y aprovechar sus beneficios? En JUNGLE, te ofrecemos la mejor plataforma para comprar, vender e intercambiar criptomonedas de forma fácil, rápida y segura. Con nosotros, podrás acceder a las principales criptomonedas del mercado, como Bitcoin, Ethereum, BNB, Dogecoin y muchas más. Además, contarás con el apoyo de nuestro equipo de expertos que te asesorarán en todo momento y resolverán tus dudas. No importa si eres principiante o avanzado, en JUNGLE, encontrarás todo lo que necesitas para empezar o mejorar tu experiencia con las criptomonedas. </p>
+
 </div>
+
     </div>
   </section>
+</div>
 <!--TERMINA SECCION QUIENES SOMOS-->
-<!--EMPEIZA FORMULARIO DE CONTACTO-->
-  <section class="container img" style="margin-top: 80px;">
-    <div class="row">
-      <div class="col col-sm-12 col-lg-6 text-white">
-        <h2 class="py-4 text-white" id="contacto">Formulario de contacto</h2>
-        <form class="px-4 border-form">
-          <div class="form-group row py-4">
-            <label for="nombre" class="col-sm-3 col-form-label text-white">Nombre:</label>
-            <div class="col-sm-9">
-              <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
-            </div>
-          </div>
-          <div class="form-group row py-4">
-            <label for="correo" class="col-sm-3 col-form-label text-white font-weight-bold">Correo:</label>
-            <div class="col-sm-9">
-              <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico" required>
-            </div>
-          </div>
-          <div class="form-group row py-4">
-            <label for="mensaje" class="col-sm-3 col-form-label text-white font-weight-bold">Mensaje:</label>
-            <div class="col-sm-9">
-              <textarea class="form-control" id="mensaje" rows="5" placeholder="Ingrese su mensaje" required></textarea>
-            </div>
-          </div>
-          <button type="submit" class="btn btn-success" id="btn">Enviar</button>
-        </form>
-      </div>
-      <div class="col-sm-12 col-lg-6 text-center">
-        <p>
-          <br>
-        </p>
-      </div>
-    </div>
-  </section>
-<!--TERMINA FORMULARIO DE CONTACTO-->
+
+<br>
+<br>
+
 <!--EMPIEZA FORMULARIO DE COTIZACION-->
+<div class="cotizacion">
   <section class="container img" style="margin-top: 80px;">
     <div class="row">
       <div class="col col-sm-12 col-lg-6 text-white">
@@ -151,13 +137,54 @@
       </div>
     </div>
   </section>
+</div>
   <!--TERMINA FORMULARIO DE COTIZACION-->
+<br>
+<br>
+<!--EMPEIZA FORMULARIO DE CONTACTO-->
+<section class="container img" style="margin-top: 80px;">
+  <div class="row">
+    <div class="col col-sm-12 col-lg-6 text-white">
+      <h2 class="py-4 text-white" id="contacto">Formulario de contacto</h2>
+      <form class="px-4 border-form">
+        <div class="form-group row py-4">
+          <label for="nombre" class="col-sm-3 col-form-label text-white">Nombre:</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
+          </div>
+        </div>
+        <div class="form-group row py-4">
+          <label for="correo" class="col-sm-3 col-form-label text-white font-weight-bold">Correo:</label>
+          <div class="col-sm-9">
+            <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico" required>
+          </div>
+        </div>
+        <div class="form-group row py-4">
+          <label for="mensaje" class="col-sm-3 col-form-label text-white font-weight-bold">Mensaje:</label>
+          <div class="col-sm-9">
+            <textarea class="form-control" id="mensaje" rows="5" placeholder="Ingrese su mensaje" required></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-success" id="btn">Enviar</button>
+      </form>
+    </div>
+    <div class="col-sm-12 col-lg-6 text-center">
+      <p>
+        <br>
+      </p>
+    </div>
+  </div>
+</section>
+<!--TERMINA FORMULARIO DE CONTACTO-->
+<br>
+<br>
+
   <p class="text-center text-white"></p>
     </div>
     <footer class="container-fluid">
       <div class="row p-5 bg-dark text-white pb-0 mb-0">
         <div class="col-sm-12 col-md-6 col-lg-3 p-0">
-          <img src="./img/marca1.png" alt="marca" width="270px" height="135px">
+          <img src="./img/marca1.png" alt="marca" width="250px" height="200px">
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 ">
           <h5>Desarolladores</h5>
