@@ -43,6 +43,7 @@ nav {
   margin: 0 10%;
   padding: 0%;
   padding-bottom: 10%;
+
 }
     .colum{
       border:1px solid red;
@@ -57,11 +58,7 @@ nav {
       font-family: 'Baloo Bhaijaan 2', cursive;
       
     }
-    form.border-form {
-      border: 5px solid white;
-      padding-bottom: 7px;
-      box-shadow: 0 0 10px;
-    }
+ 
     .slogan{
       font-size: 200%;
       padding-top: 20%;
@@ -73,4 +70,18 @@ nav {
     p {
       text-align: justify;
     }
-    
+
+    .contacto{
+      background-color: black;
+      background-repeat: no-repeat;
+      border: 1px solid rgb(93, 50, 212);
+      border-radius: 3%;
+      margin: 0 10%;
+      padding: 0%;
+      padding-bottom: 10%;
+      height: 600px; 
+      width: 950px;
+      
+    }
+
+ 
