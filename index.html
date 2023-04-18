@@ -17,15 +17,14 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-dark bg-gradient bg-opacity-100 fixed-top">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <a class="navbar-brand" href="#">
+        <img src="./img/marca1.png" alt="skd" width="120px" height="70px" class="d-inline-block align-text-top">
+      </a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         
           <li class="nav-item">
-            <a class="nav-link link-light  ms-5" href="#QuienesSomos">Quienes somos</a>
+            <a class="nav-link link-light  ms-5" href="#QuienesSomos">Quiénes somos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link link-light  ms-5" href="#cotizacion">Cotización</a>
@@ -41,7 +40,7 @@
         </ul>
       </div>
     </div>
-  </nav>
+</nav>
   <!-- Aca termina la navbar-->
   <div class="contenedor">    
   <section class="container img" style="margin-top: 80px;">
@@ -89,7 +88,7 @@
 <section class="container img" style="margin-top: 50px;"> 
     <div class="row">
       <div class="col text-white">
-      <h2 class="py-4 text-white " >Quienes somos</h2>
+      <h2 class="py-4 text-white " >Quiénes somos</h2>
       <p>¿Quieres entrar en el mundo de las criptomonedas y aprovechar sus beneficios? En JUNGLE, te ofrecemos la mejor plataforma para comprar, vender e intercambiar criptomonedas de forma fácil, rápida y segura. Con nosotros, podrás acceder a las principales criptomonedas del mercado, como Bitcoin, Ethereum, BNB, Dogecoin y muchas más. Además, contarás con el apoyo de nuestro equipo de expertos que te asesorarán en todo momento y resolverán tus dudas. No importa si eres principiante o avanzado, en JUNGLE, encontrarás todo lo que necesitas para empezar o mejorar tu experiencia con las criptomonedas. </p>
 
 </div>
@@ -107,7 +106,7 @@
   <section class="container img" style="margin-top: 80px;">
     <div class="row">
       <div class="col col-sm-12 col-lg-6 text-white">
-        <h2 class="py-4 text-white" >Cotización</h2>
+        <h2 class="py-4 text-white">Cotización</h2>
         <form class="px-4" onsubmit="return convertirPesosABitcoin()">
           <div class="form-group row py-4">
             <label for="nombre" class="col-sm-3 col-form-label text-white">Pesos Argentinos:</label>
@@ -125,9 +124,9 @@
         </form>
       </div>
       <div class="col-sm-12 col-lg-6 text-center">
-        <p>
-          <br>
-        </p>
+        <div class="image-container">
+          <img src="./img/bitcoin.png.png" alt="Descripción de la imagen">
+        </div>
       </div>
     </div>
   </section>
@@ -161,6 +160,7 @@
           </div>
         </div>
         <button type="submit" class="btn btn-success" id="btn">Enviar</button>
+    
       </form>
     </div>
     <div class="col-sm-12 col-lg-6 text-center">
@@ -177,7 +177,7 @@
 
   <p class="text-center text-white"></p>
     </div>
-    <footer class="container-fluid">
+    <footer class="container-fluid footer">
       <div class="row p-5 bg-dark text-white pb-0 mb-0">
         <div class="col-sm-12 col-md-6 col-lg-3 p-0">
           <img src="./img/marca1.png" alt="marca" width="250px" height="200px">

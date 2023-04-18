@@ -10,6 +10,23 @@
         font-family: 'Baloo Bhaijaan 2', cursive;
         height: 50px;
       }
+
+        .navbar-nav li a {
+          font-size: 18px;
+          color: white;
+        }
+
+
+        .navbar-brand img {
+          border-radius: 5px;
+          margin-top: 4px;
+        }
+        
+        .navbar-brand img:hover {
+          transform: scale(1.1);
+        }
+      
+
     .contenedor {
      background-color: black;
       background-size:cover ;
@@ -18,7 +35,7 @@
       border-radius: 3%;
       margin: 0 10%;
       padding: 0%;
-      padding-bottom: 10%;
+      padding-bottom: 5%;
     }
 .parrafo{
   background-color: black;
@@ -26,8 +43,8 @@
   border: 1px solid rgb(93, 50, 212);
   border-radius: 3%;
   margin: 0 10%;
-  padding: 0%;
-  padding-bottom: 10%;
+  padding: 0 10% 0 auto;
+  padding-bottom: 5%;
   width: 500px;
   height: 450px;
   padding-left: 10px;
@@ -36,17 +53,25 @@
 }
 
 
-.cotizacion{
+.cotizacion {
   background-color: black;
   background-repeat: no-repeat;
-  border: 1px solid rgb(93, 50, 212);
+  background-size: cover;
+  border: 2px solid rgb(93, 50, 212);
   border-radius: 3%;
-  margin: 0 10%;
-  padding: 0%;
-  padding-bottom: 10%;
- 
- 
+  margin: 0 10% 0 200px;
+  padding-left: 3%;
+  padding-bottom: 3%;
+  padding-top: 1px;
+  margin-left: px;
+
 }
+.cotizacion img {
+  width: 68%;
+  height: auto;
+  filter: grayscale(50%);
+}
+  
     .colum{
       border:1px solid red;
       background-color: whitesmoke;
@@ -76,12 +101,13 @@
     .contacto{
       background-color: black;
       background-repeat: no-repeat;
-      border: 1px solid rgb(93, 50, 212);
+      border: 2px solid rgb(93, 50, 212);
       border-radius: 3%;
       margin: 0 10%;
-      padding: 0%;
-      padding-bottom: 10%;
-     
+      padding: 3%;
+      padding-bottom: 3%;
+      padding-top: 10px;
+    
       
     }
 
