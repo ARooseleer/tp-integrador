@@ -6,9 +6,10 @@
       background-size: cover;
       background-repeat: no-repeat;
     }
-nav {
-  font-family: 'Baloo Bhaijaan 2', cursive;
-}
+      nav {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        height: 50px;
+      }
     .contenedor {
      background-color: black;
       background-size:cover ;
