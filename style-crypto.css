@@ -49,11 +49,14 @@
   margin: 0 10%;
   padding: 0 10% 0 auto;
   padding-bottom: 5%;
-  width: 500px;
-  height: 450px;
-  padding-left: 10px;
+  padding-left: 50px;
   padding-right: 10px;
 
+}
+
+.parrafo img {
+  width: 80%;
+  height: auto;
 }
 
 
