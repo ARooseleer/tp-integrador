@@ -50,7 +50,7 @@
   padding: 0 10% 0 auto;
   padding-bottom: 5%;
   padding-left: 50px;
-  padding-right: 10px;
+  padding-right: 50px;
 
 }
 
@@ -66,7 +66,7 @@
   background-size: cover;
   border: 1px solid rgb(93, 50, 212);
   border-radius: 3%;
-  margin: 0 10% 0 200px;
+  margin: 0 10%;
   padding-left: 3%;
   padding-bottom: 3%;
   padding-top: 1px;
